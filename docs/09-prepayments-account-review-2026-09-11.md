@@ -8,6 +8,18 @@ The trial balance shows a debit balance of **Rs1,858,924.23**. That balance shou
 
 No Xero entries were created, approved, voided, edited or paid during this review.
 
+## Post-review action — Exterminators completed
+
+On 11 September 2026, after explicit user approval, the three Exterminators Draft bills were amended and approved:
+
+- June 2026: Rs13,879.33;
+- July 2026: Rs13,879.33; and
+- August 2026: Rs13,879.34.
+
+All three are now **Authorised / Awaiting Payment**. Browser and MCP readback confirmed account **420 — Repairs & Maintenance**, tax type **Tax on Purchases at 0%**, Department **General**, the original service-month dates and references, and a combined total of **Rs41,638**. No payments from account 620 were recorded in this step.
+
+The repeating template still displays its original Rs16,377.61 amount, but its end date is 1 August 2026 and the three generated bills have been corrected individually. Do not reactivate or extend that template using the old amount.
+
 ## Action classification
 
 ### Existing bills that appear ready for normal review and clearing

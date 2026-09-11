@@ -18,19 +18,15 @@ Where is the approved opening-balance/cutover reconciliation for petty cash, and
 
 The April–August 2026 bills tied by reference to invoice 706331 are Authorised at Rs203,371.88 each. The annual base prepayment is Rs238,500 for April 2026–March 2027, implying Rs19,875 per month, and the prior annual cycle used twelve equal monthly releases. Confirm that the five Authorised bills should be voided and replaced with Rs19,875 monthly bills before any amount is cleared from account 620.
 
-### 4. Exterminators tax-inclusive draft error
-
-The June–August 2026 drafts are Rs16,377.61 each, which allocates the Rs49,132.84 invoice total including VAT. Only Rs41,638 was posted to account 620. Confirm correction of the drafts to base-only releases of Rs13,879.33, Rs13,879.33 and Rs13,879.34 to account 420 before approval and clearing.
-
-### 5. Lasith Premaratne advance
+### 4. Lasith Premaratne advance
 
 What does the 26 July 2024 USD 2,787.60 spend-money transaction to Lasith Premaratne represent, and where is its supporting document? Its LKR ledger value is Rs844,560.92, it has no description or reference, and no release or refund has been recorded in account 620.
 
-### 6. PickMe prepayment allocation
+### 5. PickMe prepayment allocation
 
 Should the available Digital Mobility Solutions Lanka/PickMe prepayment be applied to invoices 1600/6/2026 and 1600/7/2026, totalling Rs199,028.06? Historical treatment is to apply supplier prepayments to actual usage bills, not to create equal monthly bills. Check the specific available Xero prepayment object before allocation.
 
-### 7. Month-crossing project work
+### 6. Month-crossing project work
 
 For a sprint such as 22 May–4 June, how should effort/revenue be allocated between monthly invoicing and VAT Schedule 7, and who confirms that allocation?
 
@@ -59,3 +55,7 @@ The proposed twelve monthly bills already existed from June 2024 through May 202
 ### Secretaries Colombo invoice 1352 — resolved 11 September 2026
 
 All twelve monthly bills already existed. The final May 2026 bill had not been cleared. Historical payment evidence confirmed that account 620 — Prepayments is used to clear the monthly bills. A Rs8,000 payment was recorded from account 620 with an effective date of 31 May 2026 and reference **1352 May 2026**. MCP readback confirmed the payment as Authorised and the bill as Paid. The twelve monthly releases now equal the Rs96,000 annual prepayment.
+
+### Exterminators invoice 26AUG/EPLC38628 — resolved 11 September 2026
+
+The June–August drafts incorrectly divided the VAT-inclusive Rs49,132.84 supplier total across the service period even though only the Rs41,638 base was posted to account 620. After explicit approval, the bills were amended to Rs13,879.33, Rs13,879.33 and Rs13,879.34 and approved. Browser and MCP readback confirmed all three as Authorised, coded to account 420 with Department General and zero purchase tax. Their combined amount now equals the Rs41,638 base. Payments from account 620 remain outstanding.
