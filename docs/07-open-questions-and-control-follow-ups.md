@@ -27,7 +27,6 @@ For a sprint such as 22 May–4 June, how should effort/revenue be allocated bet
 - Determine whether Dialog first-of-month dating was formally introduced from April 2026; March is the outlier.
 - Verify whether the June Dialog attachment named July is merely misnamed or is the wrong source document.
 - Check the Cubicoan source invoice because its Xero bill date follows both active payment dates.
-- Resolve the Authorised and outstanding Rs8,000 Secretaries Colombo May 2026 monthly bill.
 - Confirm current treatment and entity boundary for CNC receipts.
 - Confirm whether USD Commercial is included in the routine monthly-close checklist.
 - Confirm the owner and current-period structure of the project register.
@@ -43,3 +42,7 @@ Historical comparison supported June, and the user confirmed it. Both line descr
 ### Secretaries Colombo invoice 1161 — resolved 11 September 2026
 
 The proposed twelve monthly bills already existed from June 2024 through May 2025. No duplicate series was created. Account 412 remains the recommended monthly expense account because both observed annual cycles use it; moving to account 433 would require an intentional classification decision.
+
+### Secretaries Colombo invoice 1352 — resolved 11 September 2026
+
+All twelve monthly bills already existed. The final May 2026 bill had not been cleared. Historical payment evidence confirmed that account 620 — Prepayments is used to clear the monthly bills. A Rs8,000 payment was recorded from account 620 with an effective date of 31 May 2026 and reference **1352 May 2026**. MCP readback confirmed the payment as Authorised and the bill as Paid. The twelve monthly releases now equal the Rs96,000 annual prepayment.

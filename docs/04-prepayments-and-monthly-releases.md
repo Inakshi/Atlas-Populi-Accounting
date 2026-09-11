@@ -17,6 +17,14 @@ Monthly amount for an evenly allocated annual fee:
 
 Check the contract/service period before assuming twelve equal months.
 
+Prepayments is a current-asset account. It behaves as a clearing mechanism for each prepaid service cycle, but the account as a whole is not expected to be zero because it can contain other suppliers' unexpired prepayments. For one completed cycle, the annual debit to Prepayments should be fully offset by the monthly credits over the service term.
+
+For the established monthly-bill method, the combined accounting effect of each release is:
+
+- monthly bill: debit the expense account and credit Accounts Payable;
+- payment of that bill from account 620: debit Accounts Payable and credit Prepayments; and
+- net effect: debit monthly expense and credit Prepayments.
+
 ## Secretaries Colombo — invoice 1161
 
 - Annual bill: Rs96,000.
@@ -38,7 +46,7 @@ The June–August 2024 bills used the first of the month as both bill and due da
 - Annual account: **620 — Prepayments**, tax type NONE.
 - Monthly release: Rs8,000 per month to **412 — Administration Expenses**.
 - Status: monthly bills exist from June 2025 through May 2026.
-- Exception: May 2026 is Authorised with Rs8,000 outstanding and no payment recorded at the 11 September 2026 review.
+- Completion: the May 2026 bill was cleared from account 620 on 11 September 2026 using an effective payment date of 31 May 2026 and reference **1352 May 2026**. The bill is now Paid. The twelve monthly releases total Rs96,000, so the invoice-1352 service cycle is fully released from Prepayments.
 
 ## Expense-account decision
 

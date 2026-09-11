@@ -40,6 +40,12 @@ Total: Rs4,940,700.48, matching PV BP034. The training transcript's reference to
 - BP009: Rs61,832 + Rs18,290 = Rs80,122; the paid amount appears once.
 - BP020: Rs2,200 + Rs2,200 = Rs4,400; the paid amount appears once.
 
+### Secretaries Colombo invoice 1352
+
+The Rs96,000 annual service fee for 1 June 2025–30 May 2026 was recorded to account 620 — Prepayments and released through twelve Rs8,000 monthly bills to account 412 — Administration Expenses. The final May 2026 bill was cleared from account 620 with an effective payment date of 31 May 2026 and reference **1352 May 2026**. MCP readback confirmed payment ID `d3068b7c-aa30-44be-abc4-962f1406e48d` as Authorised and the bill as Paid.
+
+The total Xero Prepayments account still contains other supplier balances. Completion of this schedule means the Rs96,000 attributable to invoice 1352 is fully released; it does not mean the whole account should be zero.
+
 ### Dialog connection 297190077
 
 Recent established pattern:
