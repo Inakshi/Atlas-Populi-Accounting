@@ -20,6 +20,7 @@ Do not turn an example into a general rule without checking the supplier's own h
 6. [Verified examples and exceptions](docs/06-verified-examples-and-exceptions.md)
 7. [Open questions and control follow-ups](docs/07-open-questions-and-control-follow-ups.md)
 8. [Source register](docs/08-source-register.md)
+9. [Prepayments account review — 11 September 2026](docs/09-prepayments-account-review-2026-09-11.md)
 
 ## Organisation boundary
 

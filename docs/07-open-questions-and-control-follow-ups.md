@@ -14,11 +14,23 @@ Reason: the sampled Dialog June bill's history originally showed creation and ap
 
 Where is the approved opening-balance/cutover reconciliation for petty cash, and where is the common-cutoff monthly reconciliation with physical-cash sign-off retained?
 
-### 3. PickMe prepayment release
+### 3. Employers' Federation release error
 
-What service period does the Rs200,000 Digital Mobility Solutions Lanka/PickMe prepayment cover, and should it use the same monthly-bill release method established for B Plus and Secretaries Colombo?
+The April–August 2026 bills tied by reference to invoice 706331 are Authorised at Rs203,371.88 each. The annual base prepayment is Rs238,500 for April 2026–March 2027, implying Rs19,875 per month, and the prior annual cycle used twelve equal monthly releases. Confirm that the five Authorised bills should be voided and replaced with Rs19,875 monthly bills before any amount is cleared from account 620.
 
-### 4. Month-crossing project work
+### 4. Exterminators tax-inclusive draft error
+
+The June–August 2026 drafts are Rs16,377.61 each, which allocates the Rs49,132.84 invoice total including VAT. Only Rs41,638 was posted to account 620. Confirm correction of the drafts to base-only releases of Rs13,879.33, Rs13,879.33 and Rs13,879.34 to account 420 before approval and clearing.
+
+### 5. Lasith Premaratne advance
+
+What does the 26 July 2024 USD 2,787.60 spend-money transaction to Lasith Premaratne represent, and where is its supporting document? Its LKR ledger value is Rs844,560.92, it has no description or reference, and no release or refund has been recorded in account 620.
+
+### 6. PickMe prepayment allocation
+
+Should the available Digital Mobility Solutions Lanka/PickMe prepayment be applied to invoices 1600/6/2026 and 1600/7/2026, totalling Rs199,028.06? Historical treatment is to apply supplier prepayments to actual usage bills, not to create equal monthly bills. Check the specific available Xero prepayment object before allocation.
+
+### 7. Month-crossing project work
 
 For a sprint such as 22 May–4 June, how should effort/revenue be allocated between monthly invoicing and VAT Schedule 7, and who confirms that allocation?
 
@@ -32,6 +44,7 @@ For a sprint such as 22 May–4 June, how should effort/revenue be allocated bet
 - Confirm the owner and current-period structure of the project register.
 - Repair the May PV dashboard formulas only after intended metrics/ranges are confirmed.
 - Repair central cost-code imports only after completing the dependency and coverage check.
+- Review the Rs40,522 posted manual journal dated 31 March 2022 and the small net residual from older conversion/correction entries; these are account-clean-up questions, not reasons to create recurring bills.
 
 ## Resolved decisions
 

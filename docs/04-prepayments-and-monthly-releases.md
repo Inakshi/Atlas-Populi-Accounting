@@ -11,6 +11,8 @@ When an annual service is paid in advance:
 5. Clear each monthly bill against the prepayment using the established Xero process.
 6. Confirm that all months are present exactly once and that the total releases equal the annual prepayment.
 
+Release only the amount originally posted to account 620. VAT, SSCL and other tax or levy lines posted separately on the annual bill must not be included again in the monthly release from Prepayments. Put any unavoidable rounding difference into the final service month so the individual schedule closes exactly.
+
 Monthly amount for an evenly allocated annual fee:
 
 `annual prepayment ÷ number of covered months`
@@ -66,4 +68,6 @@ Different B Plus invoice numbers represent separate subscription renewals and mo
 
 ## Other prepayments
 
-The PickMe/Digital Mobility example is a Xero prepayment, not an ordinary supplier bill. The training did not establish its covered service period or monthly release schedule. Confirm that evidence before creating releases.
+The PickMe/Digital Mobility balance is usage-based. Monthly supplier bills already record actual travel and portal usage; it should not be divided into equal recurring bills. Apply the relevant Xero supplier prepayment to those actual bills after checking the available prepayment object and invoice match.
+
+Security deposits and employee or supplier advances can also sit in account 620. They remain assets until refunded, applied to supported expenditure or otherwise resolved. Do not create monthly expense bills merely to force the whole account to zero.
