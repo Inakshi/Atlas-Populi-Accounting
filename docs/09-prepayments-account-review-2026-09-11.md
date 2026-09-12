@@ -43,9 +43,21 @@ These items require approval or payment processing against account 620, not dupl
 - Correct equal monthly base release: **Rs19,875**.
 - Prior-cycle evidence: invoice 705155 posted Rs397,500 to 620 and used twelve Paid monthly bills of Rs33,125.
 
-Five current bills for April–August 2026 are Authorised at **Rs203,371.88 each**, or **Rs1,016,859.40** in total. This cannot be a release of the Rs238,500 prepayment. The invoice references also say `26JUN_TTTTT_706331`, while the annual bill is `26JUL_TTTT_706331`.
+At the initial review, five bills for April–August 2026 were Authorised at **Rs203,371.88 each**, or **Rs1,016,859.40** in total. This cannot be a release of the Rs238,500 prepayment. The invoice references also say `26JUN_TTTTT_706331`, while the annual bill is `26JUL_TTTT_706331`.
 
-Recommended correction, subject to finance confirmation: void the five incorrect Authorised bills and create five monthly bills of Rs19,875 to **412 — Administration Expenses**, then clear **Rs99,375** from 620. Continue September 2026–March 2027 at Rs19,875 per month.
+**Correction completed 12 September 2026:** Following the user’s instruction to amend existing bills, all five were edited in place to **Rs19,875 each**, totalling **Rs99,375**, retaining **412 — Administration Expenses**. No bills were voided or recreated. MCP readback confirmed all five remain Authorised with the full corrected amounts due, original IDs, dates, references, quantity 1 and INPUT tax type; browser readback confirmed 0% tax and Department General.
+
+| Month | Existing Xero bill | Corrected amount |
+|---|---|---:|
+| April | [Bill](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=dcfaa576-9563-4366-990a-10957f0678ab) | Rs19,875 |
+| May | [Bill](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=bc549f0f-634a-4258-a2b6-bdb0142b9c0f) | Rs19,875 |
+| June | [Bill](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=d84e6821-cb1f-440b-8e9b-57166fd330fc) | Rs19,875 |
+| July | [Bill](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=b69c436e-6a80-4ac7-83cd-a9091caccb71) | Rs19,875 |
+| August | [Bill](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=1b6723b2-9d4c-4e49-b814-f3b30a29cae1) | Rs19,875 |
+
+The correction reduces recorded expenses and payables by **Rs917,484.40**. It does not itself credit account 620; **Rs99,375 remains to be cleared against Prepayments** under the existing monthly-release process. No payments were recorded in this correction.
+
+The [existing repeating template](https://go.xero.com/RepeatTransactions/Edit.aspx?invoiceID=5be9e115-35e5-4414-8e1f-3aae2cf9dbac&type=AP) was also corrected to Rs19,875. Saved-list readback confirmed monthly recurrence, next bill 30 September 2026, end date 31 March 2027 and Auto Approved status. Account, tax, department, reference placeholder and existing schedule were preserved. The annual/monthly reference-prefix discrepancy remains documented; references were not changed.
 
 #### Exterminators PLC — 26AUG/EPLC38628
 
