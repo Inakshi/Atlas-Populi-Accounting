@@ -26,7 +26,7 @@ The repeating template still displays its original Rs16,377.61 amount, but its e
 
 | Supplier and source | Covered months currently waiting | Existing status | Amount to release from 620 | Expense account | Finding |
 |---|---|---:|---:|---|---|
-| Cemex, CMX/2025/08/0081 | May–August 2026 | 4 Draft bills | Rs46,458.56 | 500 — Software Subscriptions | Four bills of Rs11,614.64 already exist. Their total agrees to the Rs46,458.57 ledger residual within one cent. No new bills are needed. |
+| Cemex, CMX/2025/08/0081 | May–August 2026 | 4 Paid bills — completed 12 September 2026 | Rs46,458.57 released | 500 — Software Subscriptions | May–July Rs11,614.64 each; August Rs11,614.65. Approved and settled against 620 at each service month end. |
 | B PLUS, 3314 | May–September 2026 | 5 Draft bills | Rs256,385.80 | 500 — Software Subscriptions | Five bills of Rs51,277.16 already exist. The annual base posted to 620 was Rs615,325.88 and six earlier monthly releases are Paid. October is the final future month and will require a rounding-adjusted final release when due. |
 | Fairfirst, CRFFC2300000310300001 | July–September 2026 | 3 Authorised bills | Rs15,134.97 | 410 — Insurance | Three bills of Rs5,044.99 already exist and are unpaid. February–June are Paid. October 2026–January 2027 are future service months and should be generated under the existing schedule when due. |
 
@@ -140,3 +140,18 @@ At each month-end:
 7. Apply or pay the approved release from 620 using the supplier's established Xero method.
 8. Read the record back and confirm the supplier schedule's cumulative releases and remaining unexpired balance.
 9. Keep security deposits, advances and historical clean-up items on a separate exception list.
+
+## Post-review action — Cemex completed 12 September 2026
+
+The user authorised final rounding, approval and settlement of the four existing May–August 2026 bills for CMX/2025/08/0081. Live MCP confirmed the annual bill posted Rs139,375.69 to 620 for September 2025–August 2026 and all eight earlier monthly bills were Paid at Rs11,614.64 each (Rs92,917.12). The final four therefore total Rs46,458.57.
+
+August was amended through MCP from Rs11,614.64 to Rs11,614.65, preserving account 500, INPUT tax, Department General and its description. Browser readback verified the amended fields before approval. All four were approved through Xero UI and settled through MCP against account 620 (eef9bea6-dbf4-4bc8-8408-c4a6979716fe). Original bill dates and references were preserved. No duplicate bills or bank transfers were created.
+
+| Month | Amount | Effective settlement date | Payment ID |
+|---|---:|---|---|
+| May | Rs11,614.64 | 2026-05-31 | a487beb2-93cb-4a70-a779-48df989ef030 |
+| June | Rs11,614.64 | 2026-06-30 | c7da1ba7-8962-4c41-86b8-cdd4b6c2312e |
+| July | Rs11,614.64 | 2026-07-31 | 97ae6e6f-deb0-4339-b2d3-75514bd4f3d5 |
+| August | Rs11,614.65 | 2026-08-31 | 1c8ba3fb-6841-4589-99da-7e099dd85984 |
+
+Independent MCP readback confirmed all four bills PAID in full and exactly one Authorised ACCPAYPAYMENT per bill with the above amounts and dates. The twelve monthly amounts total Rs139,375.69, closing this annual schedule exactly.
