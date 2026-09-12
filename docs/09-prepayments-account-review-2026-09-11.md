@@ -55,7 +55,7 @@ At the initial review, five bills for April–August 2026 were Authorised at **R
 | July | [Bill](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=b69c436e-6a80-4ac7-83cd-a9091caccb71) | Rs19,875 |
 | August | [Bill](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=1b6723b2-9d4c-4e49-b814-f3b30a29cae1) | Rs19,875 |
 
-The correction reduces recorded expenses and payables by **Rs917,484.40**. It does not itself credit account 620; **Rs99,375 remains to be cleared against Prepayments** under the existing monthly-release process. No payments were recorded in this correction.
+The correction reduces recorded expenses and payables by **Rs917,484.40**. The amount correction itself did not credit account 620. Subsequently, on 12 September 2026, the user authorised settlement and five Rs19,875 payments were recorded through MCP against account **620 — Prepayments** (account ID `eef9bea6-dbf4-4bc8-8408-c4a6979716fe`), totalling **Rs99,375**. Effective dates are 30 April, 31 May, 30 June, 31 July and 31 August 2026. References are `706331 [Month] 2026`. MCP readback verified one Authorised ACCPAYPAYMENT per bill and all five bills PAID for their full amounts. No bank transfer was made. The remaining scheduled base for September 2026–March 2027 is Rs139,125.
 
 The [existing repeating template](https://go.xero.com/RepeatTransactions/Edit.aspx?invoiceID=5be9e115-35e5-4414-8e1f-3aae2cf9dbac&type=AP) was also corrected to Rs19,875. Saved-list readback confirmed monthly recurrence, next bill 30 September 2026, end date 31 March 2027 and Auto Approved status. Account, tax, department, reference placeholder and existing schedule were preserved. The annual/monthly reference-prefix discrepancy remains documented; references were not changed.
 

@@ -16,7 +16,7 @@ Where is the approved opening-balance/cutover reconciliation for petty cash, and
 
 ### 3. Employers' Federation release error
 
-Resolved for bill amounts on 12 September 2026: the five existing April–August bills were amended in place to Rs19,875 each, without voiding or replacement, and remain Authorised. The repeating template was corrected to the same amount through March 2027. MCP verified the five bills; browser readback verified the template. Remaining action: clear Rs99,375 against account 620 using the existing monthly-release process. No clearing payments were recorded. See the [review and linked bills](09-prepayments-account-review-2026-09-11.md).
+Resolved for bill amounts on 12 September 2026: the five existing April–August bills were amended in place to Rs19,875 each, without voiding or replacement, and remain Authorised. The repeating template was corrected to the same amount through March 2027. MCP verified the five bills; browser readback verified the template. Settlement completed on 12 September 2026 following user authorisation: five Rs19,875 payments were recorded against account 620 with the respective service-month-end dates. MCP verified all five bills PAID and one payment per bill. September 2026–March 2027 remain future monthly releases. See the [review and linked bills](09-prepayments-account-review-2026-09-11.md).
 
 ### 4. Lasith Premaratne advance
 
