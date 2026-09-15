@@ -21,6 +21,8 @@ Do not turn an example into a general rule without checking the supplier's own h
 7. [Open questions and control follow-ups](docs/07-open-questions-and-control-follow-ups.md)
 8. [Source register](docs/08-source-register.md)
 9. [Prepayments account review — 11 September 2026](docs/09-prepayments-account-review-2026-09-11.md)
+10. [Monthly close agent checklist](docs/10-monthly-close-agent-checklist.md)
+11. [Monthly supplier control register](docs/11-monthly-supplier-control-register.md)
 
 ## Organisation boundary
 
@@ -35,4 +37,4 @@ These documents apply to **Atlas Populi (Private) Limited** in Xero, with LKR as
 - Verify every write by reading the saved record back from the live system.
 - Record unresolved assumptions in [the open-items register](docs/07-open-questions-and-control-follow-ups.md).
 
-Last substantive review: **11 September 2026**.
+Last substantive review: **15 September 2026**.

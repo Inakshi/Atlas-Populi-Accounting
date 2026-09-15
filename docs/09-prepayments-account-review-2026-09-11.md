@@ -16,7 +16,15 @@ On 11 September 2026, after explicit user approval, the three Exterminators Draf
 - July 2026: Rs13,879.33; and
 - August 2026: Rs13,879.34.
 
-All three are now **Authorised / Awaiting Payment**. Browser and MCP readback confirmed account **420 — Repairs & Maintenance**, tax type **Tax on Purchases at 0%**, Department **General**, the original service-month dates and references, and a combined total of **Rs41,638**. No payments from account 620 were recorded in this step.
+Browser and MCP readback confirmed account **420 — Repairs & Maintenance**, tax type **Tax on Purchases at 0%**, Department **General**, the original service-month dates and references, and a combined total of **Rs41,638**.
+
+On 15 September 2026, after explicit user authorisation, all three bills were settled through the Atlas Populi MCP connection against **620 — Prepayments** (account ID `eef9bea6-dbf4-4bc8-8408-c4a6979716fe`). The effective payment dates follow the historical service-month-end convention:
+
+- June: Rs13,879.33 on 30 June 2026, reference `26AUG/EPLC38628_June2026`, payment ID `d266d16f-af56-4f23-9194-34357c8c0d91`;
+- July: Rs13,879.33 on 31 July 2026, reference `26AUG/EPLC38628_July2026`, payment ID `6e0607b2-c166-4e54-a5e5-51c085d55bc1`; and
+- August: Rs13,879.34 on 31 August 2026, reference `26AUG/EPLC38628_August2026`, payment ID `162d4802-ae9d-467b-ac7d-d6187e010a36`.
+
+MCP readback confirmed one Authorised ACCPAYPAYMENT per bill and all three bills **Paid** for their full amounts. The account-620 trial-balance amount fell from Rs1,713,090.66 to Rs1,671,452.66, exactly matching the Rs41,638 release. No bank transfer was made.
 
 The repeating template still displays its original Rs16,377.61 amount, but its end date is 1 August 2026 and the three generated bills have been corrected individually. Do not reactivate or extend that template using the old amount.
 
@@ -66,9 +74,9 @@ The [existing repeating template](https://go.xero.com/RepeatTransactions/Edit.as
 - VAT posted separately to account 314: **Rs7,494.84**.
 - Total supplier bill: Rs49,132.84.
 
-The three existing Draft bills are Rs16,377.61 each, totalling Rs49,132.83. They therefore allocate almost the whole supplier invoice, including VAT, even though only the Rs41,638 base sits in 620. The preceding Exterminators cycle released the base amount in monthly bills of Rs13,879.33 to **420 — Repairs & Maintenance**.
+The three generated bills initially allocated Rs16,377.61 each, almost the full VAT-inclusive supplier invoice rather than the Rs41,638 base in account 620. On 11 September 2026, they were corrected and approved at **Rs13,879.33 for June, Rs13,879.33 for July and Rs13,879.34 for August**, following the preceding Exterminators cycle and placing the one-cent rounding difference in the final month.
 
-Recommended correction, subject to finance confirmation: change the drafts to **Rs13,879.33 for June, Rs13,879.33 for July and Rs13,879.34 for August**. The final one-cent adjustment makes the schedule equal Rs41,638 exactly. Approve and clear them only after correction.
+On 15 September 2026, all three were settled against account 620 at their respective service month ends. The bills are Paid, the combined Rs41,638 release equals the annual base exactly, and this supplier cycle is fully cleared from Prepayments.
 
 ### Usage-based prepayment with existing actual bills
 
