@@ -83,7 +83,8 @@ For every result, retain the source name, Xero record ID or link, period, amount
 
 - [ ] **MC-20 — Match bill to source.** Compare contact, supplier invoice number, amount, currency, date, due date, description and service period.
 - [ ] **MC-21 — Preserve invoice numbers.** Check exact characters and leading zeros. Do not substitute a voucher number when a formal supplier invoice exists.
-- [ ] **MC-22 — Check recurring periods.** For recurring bills, compare recent supplier history. The normal observed pattern is bill date on the first of the service month, month-end due date and supplier invoice plus service month/year in the reference.
+- [ ] **MC-22 — Check recurring periods.** For recurring and usage-based monthly bills, compare recent supplier history. Determine the service month from the source, reference and description; do not assume the supplier's issue date is the accounting date. Where the established convention applies, the bill date must be the first of the service month and the due date must be that service month's end.
+- [ ] **MC-22A — Test the posting period.** Compare the bill date's accounting month with the service month before approval or prepayment allocation. A supplier invoice issued in the following month can still belong to the preceding service month. Treat a mismatch as a `FAIL`, correct the existing editable bill, and read it back before continuing.
 - [ ] **MC-23 — Check description/reference agreement.** The service month, connection ID and service description must agree. A mismatch is a `FAIL`, even when the amount is correct.
 - [ ] **MC-24 — Check coding separately.** Validate GL account, configured Xero tax type, VAT Input line where applicable, Department and detailed project/task cost code. A cost code in the description does not replace Department tracking.
 - [ ] **MC-25 — Check attachments and links.** Confirm the invoice/receipt is attached in Xero and the Jira/procurement support is retained where required.
@@ -107,6 +108,7 @@ For every result, retain the source name, Xero record ID or link, period, amount
 - [ ] **MC-36 — Find existing releases.** Search all Draft, Authorised and Paid monthly bills. Confirm every due service month appears exactly once and future months have not been released early.
 - [ ] **MC-37 — Validate release bills.** Check amount, expense account, tax, Department, service-month date, due date, reference and description against the supplier's current cycle and recent history.
 - [ ] **MC-38 — Validate clearing payments.** For due and approved monthly bills, confirm one active payment from account 620 at the established service-month-end date and with the established reference.
+- [ ] **MC-38A — Validate supplier-prepayment allocations.** For usage-based bills cleared by a Xero supplier prepayment, confirm exactly one active allocation from the identified prepayment object for the supported bill amount. Reconcile the object's remaining credit and exclude reversed or deleted allocations. Do not record an ordinary account-620 payment as well.
 - [ ] **MC-39 — Reconcile each cycle.** Calculate `original 620 debit - valid active releases = remaining prepaid asset`. The remaining amount must agree with the unexpired service or supported residual.
 
 Use this table for every account-620 group:
@@ -119,6 +121,7 @@ Use this table for every account-620 group:
 
 - [ ] Equal monthly services use monthly expense bills and payments from account 620 only when this matches the supplier's established method.
 - [ ] Usage-based balances, including PickMe/Digital Mobility, are matched to supported actual-usage bills. Do not create equal recurring bills.
+- [ ] For PickMe/Digital Mobility, confirm the date is the first of the service month and the due date is month-end. The supplier's later issue date does not override the service month shown by the invoice reference and usage description.
 - [ ] Refundable deposits remain assets while recoverable. Do not expense them to make account 620 smaller.
 - [ ] Unsupported advances and historical journals remain exceptions until their purpose and source evidence are established.
 - [ ] Do not treat the total account-620 balance as a target of zero. Test each supplier cycle separately.

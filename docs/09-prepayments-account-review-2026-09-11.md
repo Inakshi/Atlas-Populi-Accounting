@@ -35,10 +35,25 @@ The repeating template still displays its original Rs16,377.61 amount, but its e
 | Supplier and source | Covered months currently waiting | Existing status | Amount to release from 620 | Expense account | Finding |
 |---|---|---:|---:|---|---|
 | Cemex, CMX/2025/08/0081 | May–August 2026 | 4 Paid bills — completed 12 September 2026 | Rs46,458.57 released | 500 — Software Subscriptions | May–July Rs11,614.64 each; August Rs11,614.65. Approved and settled against 620 at each service month end. |
-| B PLUS, 3314 | May–September 2026 | 5 Draft bills | Rs256,385.80 | 500 — Software Subscriptions | Five bills of Rs51,277.16 already exist. The annual base posted to 620 was Rs615,325.88 and six earlier monthly releases are Paid. October is the final future month and will require a rounding-adjusted final release when due. |
-| Fairfirst, CRFFC2300000310300001 | July–September 2026 | 3 Authorised bills | Rs15,134.97 | 410 — Insurance | Three bills of Rs5,044.99 already exist and are unpaid. February–June are Paid. October 2026–January 2027 are future service months and should be generated under the existing schedule when due. |
+| B PLUS, 3314 | May–September 2026 | May–August Paid; September Draft | Rs205,108.64 released on 15 September; Rs51,277.16 due at September close | 500 — Software Subscriptions | November 2025–August 2026 are Paid at Rs51,277.16 per month. September remains Draft until its month-end close. October is the final future month and must be Rs51,277.12 so the cycle closes to Rs615,325.88 exactly. |
+| Fairfirst, CRFFC2300000310300001 | July–September 2026 | July–August Paid; September Authorised | Rs10,089.98 released on 15 September; Rs5,044.99 due at September close | 410 — Insurance | July and August were settled from account 620 using their service-month-end dates. September remains unpaid until 30 September. October 2026–January 2027 are future service months and should be generated under the existing schedule when due. |
 
 These items require approval or payment processing against account 620, not duplicate bill creation.
+
+#### B PLUS invoice 3314 — May–August releases completed 15 September 2026
+
+The annual source bill contains three lines posted to account 620 totalling **Rs615,325.88** and a separate Rs110,758.66 VAT Input line. Six November 2025–April 2026 monthly releases were already Paid at Rs51,277.16 each. One old December payment attempt is Deleted and was excluded from the active total.
+
+After the user authorised the reviewed approach, the four existing May–August Draft bills were approved in Xero. MCP readback confirmed all four as Authorised for Rs51,277.16, account 500 and INPUT tax before settlement. A duplicate check confirmed no existing payments on the four bills.
+
+The bills were then settled against account **620 — Prepayments** using the historical month-end date and spaced payment-reference convention:
+
+- May: Rs51,277.16 on 31 May 2026, reference `3314 May 2026`, payment ID `2f5cd147-2351-4d95-aa8d-e43045bc5316`;
+- June: Rs51,277.16 on 30 June 2026, reference `3314 June 2026`, payment ID `9d5f0b2b-214b-43ab-95e6-61edbdda9f41`;
+- July: Rs51,277.16 on 31 July 2026, reference `3314 July 2026`, payment ID `441c2ddc-6116-4b57-ab95-5ad39c11f671`; and
+- August: Rs51,277.16 on 31 August 2026, reference `3314 August 2026`, payment ID `130c84b8-23a3-4b3d-bf04-c306772f67df`.
+
+MCP readback confirmed one Authorised ACCPAYPAYMENT per bill and all four bills Paid. Account 620 fell from Rs1,671,452.66 to **Rs1,466,344.02**, exactly matching the Rs205,108.64 release. September remains Draft for its 30 September close. If September is released at Rs51,277.16, the final October release must be **Rs51,277.12** to clear the four-cent cycle remainder.
 
 ### Bills that must be corrected before clearing
 
@@ -80,15 +95,19 @@ On 15 September 2026, all three were settled against account 620 at their respec
 
 ### Usage-based prepayment with existing actual bills
 
-Digital Mobility Solutions Lanka/PickMe is not an equal-month recurring schedule. The current account-620 ledger shows Rs400,000 of top-ups since 1 April 2026 and Rs216,490.67 of releases, a current-year net debit of Rs183,509.33. The supplier's lifetime net ledger balance is Rs296,455.72.
+Digital Mobility Solutions Lanka/PickMe is not an equal-month recurring schedule. The account-620 ledger contained Rs400,000 of top-ups since 1 April 2026 and Rs216,490.67 of releases before this review. Immediately before the June and July allocations, the supplier's live outstanding prepayment balance was Rs296,455.72.
 
 Two actual usage bills already exist:
 
-- 1600/6/2026: Rs78,526.97, Authorised and unpaid;
-- 1600/7/2026: Rs120,501.09, Authorised and unpaid; and
+- 1600/6/2026: Rs78,526.97, corrected to 1 June/30 June and Paid;
+- 1600/7/2026: Rs120,501.09, corrected to 1 July/31 July and Paid; and
 - total: **Rs199,028.06**.
 
-Historical entries show supplier prepayments being credited against actual monthly usage bills. Do not create equal monthly bills. First identify the specific available Xero prepayment object, then apply it to these two invoices if finance confirms the match.
+Historical entries show supplier prepayments being credited against actual monthly usage bills. The source-cycle matching pattern supported applying both bills to BP005/07/2026, Xero prepayment `0f42f5d5-de27-4c36-be56-029a83c2f18e`, which had Rs200,000 available before allocation. The completed Rs199,028.06 allocation left Rs971.94 on that prepayment. Older balances remain separate: Rs92,616.32 on BP004/05/2026 and Rs3,839.40 on BP027/02/2026, for a supplier total of Rs97,427.66.
+
+The date review found two posting-period errors. Bill 1600/6/2026 was dated 2 July with a 16 July due date even though its reference and description identify June. Bill 1600/7/2026 was dated 3 August with a 17 August due date even though its reference and description identify July. PickMe history from at least February 2024 through May 2026 consistently uses the first of the service month and month-end due date. Both bills were corrected in place and read back before the prepayment was applied. Amounts, references, descriptions, account 430, `INPUT0%` — Tax on Purchases at 0% and Department General remained unchanged.
+
+Xero history retains an earlier 15 September allocation of Rs78,526.97 from the May prepayment and its reversal. That allocation is inactive. The active state contains exactly two allocations from BP005/07/2026 totalling Rs199,028.06.
 
 ### Balances that do not support recurring expense bills
 
@@ -120,20 +139,17 @@ A separate posted journal dated 31 March 2022 debits 620 by **Rs40,522** and cre
 - Fairfirst phase-01 invoice CRFFC2300002090200001 is complete from July 2025 through June 2026.
 - Future months should not be brought forward solely to reduce account 620. They should be generated and released in the service month under each existing recurring schedule.
 
-## Quantified current release candidates
+## Current release candidates at 15 September 2026
 
-The following total is a planning figure, not a posting instruction:
+Completed since the original review: Cemex Rs46,458.57, EFC Rs99,375, Exterminators Rs41,638, B PLUS May–August Rs205,108.64, Fairfirst July–August Rs10,089.98 and PickMe June–July Rs199,028.06. These releases total **Rs601,698.25** and are reflected in the Rs1,257,225.98 account-620 balance read from Xero on 15 September 2026.
 
-- existing Cemex drafts: Rs46,458.56;
-- existing B PLUS drafts: Rs256,385.80;
-- existing Fairfirst Authorised bills: Rs15,134.97;
-- corrected EFC April–August releases: Rs99,375.00;
-- corrected Exterminators June–August releases: Rs41,638.00; and
-- existing PickMe June–July usage bills, if matched to available supplier prepayments: Rs199,028.06.
+The remaining candidates are timing- or evidence-dependent:
 
-Total potential release or allocation: **Rs658,020.39**. Excluding PickMe until its exact prepayment object is confirmed, the fixed-schedule amount is **Rs458,992.33**.
+- Fairfirst September: Rs5,044.99 due at the 30 September close;
+- B PLUS September: Rs51,277.16 due at the 30 September close, followed by the final Rs51,277.12 October release; and
+- future PickMe usage bills, only after matching each bill's service month and exact available supplier prepayment object.
 
-Do not subtract this planning total mechanically from the trial balance. Each release requires invoice-level approval, correction where noted, and readback verification. The remaining account balance will continue to contain unexpired services, deposits, advances and unresolved historical items.
+Future service months must not be released early. Do not subtract these amounts mechanically from the trial balance: each release requires invoice-level review, exact authorisation and readback verification. The remaining account balance will continue to contain unexpired services, deposits, advances and unresolved historical items.
 
 ## Control procedure for account 620
 

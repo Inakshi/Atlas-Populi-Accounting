@@ -24,7 +24,7 @@ What does the 26 July 2024 USD 2,787.60 spend-money transaction to Lasith Premar
 
 ### 5. PickMe prepayment allocation
 
-Should the available Digital Mobility Solutions Lanka/PickMe prepayment be applied to invoices 1600/6/2026 and 1600/7/2026, totalling Rs199,028.06? Historical treatment is to apply supplier prepayments to actual usage bills, not to create equal monthly bills. Check the specific available Xero prepayment object before allocation.
+Resolved 15 September 2026. Historical review confirmed that PickMe actual-usage bills are matched to the relevant source-cycle prepayment rather than allocated FIFO. The June and July bills were corrected to the first day and month end of their respective service months, then Rs78,526.97 and Rs120,501.09 were applied from BP005/07/2026. Both bills are Paid and Rs971.94 remains on that prepayment. An earlier same-day June allocation from the May prepayment was reversed; it is not active and is retained in the audit history.
 
 ### 6. Month-crossing project work
 
@@ -59,3 +59,11 @@ All twelve monthly bills already existed. The final May 2026 bill had not been c
 ### Exterminators invoice 26AUG/EPLC38628 — resolved 15 September 2026
 
 The June–August drafts incorrectly divided the VAT-inclusive Rs49,132.84 supplier total across the service period even though only the Rs41,638 base was posted to account 620. After explicit approval, the bills were amended to Rs13,879.33, Rs13,879.33 and Rs13,879.34 and approved. Browser and MCP readback confirmed account 420, Department General and zero purchase tax. On 15 September 2026, the user authorised settlement and the three bills were paid from account 620 using the respective June, July and August service-month-end dates and bill references. MCP readback confirmed one Authorised payment per bill and all three bills Paid. Their combined Rs41,638 release now equals and fully clears the base posted to account 620 for this supplier cycle.
+
+### B PLUS invoice 3314 May–August — resolved 15 September 2026
+
+The Rs615,325.88 base posted to account 620 supports twelve releases from November 2025 through October 2026. Six November–April bills were already Paid. Following user approval, the four existing May–August drafts were approved and settled from account 620 at their respective service month ends for Rs51,277.16 each. MCP confirmed one Authorised payment per bill, all four bills Paid and an exact Rs205,108.64 reduction in account 620. September remains Draft until the 30 September close. After a normal Rs51,277.16 September release, October must be Rs51,277.12 to close the annual base exactly.
+
+### Fairfirst July–August releases — resolved 15 September 2026
+
+The July and August bills were settled from account 620 for Rs5,044.99 each using their respective service-month-end dates. Both bills are Paid with one active payment each, and account 620 decreased by exactly Rs10,089.98. The September Rs5,044.99 bill remains Authorised and unpaid until its 30 September due date.
