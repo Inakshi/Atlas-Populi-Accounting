@@ -24,7 +24,7 @@ What does the 26 July 2024 USD 2,787.60 spend-money transaction to Lasith Premar
 
 ### 5. PickMe prepayment allocation
 
-Resolved 15 September 2026. Historical review confirmed that PickMe actual-usage bills are matched to the relevant source-cycle prepayment rather than allocated FIFO. The June and July bills were corrected to the first day and month end of their respective service months, then Rs78,526.97 and Rs120,501.09 were applied from BP005/07/2026. Both bills are Paid and Rs971.94 remains on that prepayment. An earlier same-day June allocation from the May prepayment was reversed; it is not active and is retained in the audit history.
+Resolved and corrected 15 September 2026. The June and July bills were corrected to the first day and month end of their respective service months. The first allocation approach was wrong because it charged both bills entirely to BP005/07/2026 and left the active BP004/05/2026 balance unused. The corrected allocation fully consumes BP004/05/2026: Rs107,383.68 to May, Rs78,526.97 to June and its final Rs14,089.35 to July. The remaining Rs106,411.74 of the July bill is applied from BP005/07/2026, leaving Rs93,588.26 on that prepayment. Both bills remain Paid. BP027/02/2026 retains an irregular historical Rs3,839.40 balance and must not be pulled into the current sequence without separate evidence.
 
 ### 6. Month-crossing project work
 

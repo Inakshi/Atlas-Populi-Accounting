@@ -108,7 +108,7 @@ For every result, retain the source name, Xero record ID or link, period, amount
 - [ ] **MC-36 — Find existing releases.** Search all Draft, Authorised and Paid monthly bills. Confirm every due service month appears exactly once and future months have not been released early.
 - [ ] **MC-37 — Validate release bills.** Check amount, expense account, tax, Department, service-month date, due date, reference and description against the supplier's current cycle and recent history.
 - [ ] **MC-38 — Validate clearing payments.** For due and approved monthly bills, confirm one active payment from account 620 at the established service-month-end date and with the established reference.
-- [ ] **MC-38A — Validate supplier-prepayment allocations.** For usage-based bills cleared by a Xero supplier prepayment, confirm exactly one active allocation from the identified prepayment object for the supported bill amount. Reconcile the object's remaining credit and exclude reversed or deleted allocations. Do not record an ordinary account-620 payment as well.
+- [ ] **MC-38A — Validate supplier-prepayment allocations.** For usage-based bills, trace the live prepayment that funded the current bill sequence and consume its supported remaining balance before using the next top-up. A bill may need more than one allocation when a prepayment runs out partway through it. Confirm that all active allocations total the bill amount, each source object reconciles to zero or a supported remainder, allocation dates do not precede the bill or source prepayment, and reversed or deleted allocations are excluded. Do not record an ordinary account-620 payment as well.
 - [ ] **MC-39 — Reconcile each cycle.** Calculate `original 620 debit - valid active releases = remaining prepaid asset`. The remaining amount must agree with the unexpired service or supported residual.
 
 Use this table for every account-620 group:
@@ -122,6 +122,7 @@ Use this table for every account-620 group:
 - [ ] Equal monthly services use monthly expense bills and payments from account 620 only when this matches the supplier's established method.
 - [ ] Usage-based balances, including PickMe/Digital Mobility, are matched to supported actual-usage bills. Do not create equal recurring bills.
 - [ ] For PickMe/Digital Mobility, confirm the date is the first of the service month and the due date is month-end. The supplier's later issue date does not override the service month shown by the invoice reference and usage description.
+- [ ] For PickMe/Digital Mobility, use the remaining balance of the prepayment funding the recent monthly sequence before using the next top-up. Split a bill across prepayments when required to clear the earlier object exactly. Do not apply an older irregular residual until its relationship to the current sequence is supported.
 - [ ] Refundable deposits remain assets while recoverable. Do not expense them to make account 620 smaller.
 - [ ] Unsupported advances and historical journals remain exceptions until their purpose and source evidence are established.
 - [ ] Do not treat the total account-620 balance as a target of zero. Test each supplier cycle separately.

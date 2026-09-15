@@ -38,6 +38,9 @@ These links require access to the Atlas Populi Xero organisation.
 - [Fairfirst annual bill CRFFC2300000310300001](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=6e14941d-f830-4a98-87f9-30c84a5dacb7)
 - [PickMe June usage bill 1600/6/2026](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=a6c00f22-0977-48c4-9474-3b96270aacd9)
 - [PickMe July usage bill 1600/7/2026](https://go.xero.com/AccountsPayable/View.aspx?InvoiceID=6c56bc7a-ca15-4f15-931f-45197f6e6af7)
+- [PickMe prepayment BP004/05/2026](https://go.xero.com/AccountsPayable/ViewCreditNote.aspx?creditNoteID=ea84d254-13a4-480e-bc3e-7b0674ab7372)
+- [PickMe prepayment BP005/07/2026](https://go.xero.com/AccountsPayable/ViewCreditNote.aspx?creditNoteID=0f42f5d5-de27-4c36-be56-029a83c2f18e)
+- [PickMe historical residual BP027/02/2026](https://go.xero.com/AccountsPayable/ViewCreditNote.aspx?creditNoteID=8109a4cb-f67b-436c-b28f-b269c76762d3)
 
 ## Evidence limits
 

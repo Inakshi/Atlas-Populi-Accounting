@@ -68,6 +68,8 @@ Different B Plus invoice numbers represent separate subscription renewals and mo
 
 ## Other prepayments
 
-The PickMe/Digital Mobility balance is usage-based. Monthly supplier bills already record actual travel and portal usage; it should not be divided into equal recurring bills. PickMe history uses the first of the service month as the bill date and that month's end as the due date. If the supplier issues an invoice in the following month, use the reference and usage description to identify the service month and post the bill to that period. Apply the relevant Xero supplier prepayment only after checking the available prepayment object and invoice match.
+The PickMe/Digital Mobility balance is usage-based. Monthly supplier bills already record actual travel and portal usage; it should not be divided into equal recurring bills. PickMe history uses the first of the service month as the bill date and that month's end as the due date. If the supplier issues an invoice in the following month, use the reference and usage description to identify the service month and post the bill to that period.
+
+For allocation, identify the live prepayment that has been funding the current sequence of usage bills. Use its remaining balance first, even when one bill must be split across that prepayment and the next top-up. Allocate only the residual bill amount from the next prepayment, and reconcile each source object to zero or its supported remainder. Do not force an older irregular residual into the current sequence without first establishing what it relates to. The allocation date cannot precede either the bill date or the source prepayment date.
 
 Security deposits and employee or supplier advances can also sit in account 620. They remain assets until refunded, applied to supported expenditure or otherwise resolved. Do not create monthly expense bills merely to force the whole account to zero.

@@ -103,11 +103,13 @@ Two actual usage bills already exist:
 - 1600/7/2026: Rs120,501.09, corrected to 1 July/31 July and Paid; and
 - total: **Rs199,028.06**.
 
-Historical entries show supplier prepayments being credited against actual monthly usage bills. The source-cycle matching pattern supported applying both bills to BP005/07/2026, Xero prepayment `0f42f5d5-de27-4c36-be56-029a83c2f18e`, which had Rs200,000 available before allocation. The completed Rs199,028.06 allocation left Rs971.94 on that prepayment. Older balances remain separate: Rs92,616.32 on BP004/05/2026 and Rs3,839.40 on BP027/02/2026, for a supplier total of Rs97,427.66.
+Historical entries show supplier prepayments being credited against actual monthly usage bills. The corrected treatment is to continue consuming the live prepayment that funded the recent bill sequence before using the next top-up. BP004/05/2026, Xero prepayment `ea84d254-13a4-480e-bc3e-7b0674ab7372`, is therefore applied to May for Rs107,383.68, June for Rs78,526.97 and July for its final Rs14,089.35. This clears its Rs200,000 total exactly. The remaining Rs106,411.74 of July is applied from BP005/07/2026, Xero prepayment `0f42f5d5-de27-4c36-be56-029a83c2f18e`, leaving Rs93,588.26 on that object.
+
+BP027/02/2026 retains Rs3,839.40 after irregular allocations to February 2026 and two 2025 bills. It is excluded from the current rolling sequence until its historical purpose is separately established. Total remaining PickMe supplier credit is still Rs97,427.66: Rs93,588.26 on BP005/07/2026 plus Rs3,839.40 on BP027/02/2026.
 
 The date review found two posting-period errors. Bill 1600/6/2026 was dated 2 July with a 16 July due date even though its reference and description identify June. Bill 1600/7/2026 was dated 3 August with a 17 August due date even though its reference and description identify July. PickMe history from at least February 2024 through May 2026 consistently uses the first of the service month and month-end due date. Both bills were corrected in place and read back before the prepayment was applied. Amounts, references, descriptions, account 430, `INPUT0%` — Tax on Purchases at 0% and Department General remained unchanged.
 
-Xero history retains an earlier 15 September allocation of Rs78,526.97 from the May prepayment and its reversal. That allocation is inactive. The active state contains exactly two allocations from BP005/07/2026 totalling Rs199,028.06.
+Xero history retains the earlier incorrect allocations and their reversals. The corrected active state is: June Rs78,526.97 from BP004/05/2026; July Rs14,089.35 from BP004/05/2026 plus Rs106,411.74 from BP005/07/2026. The account-620 total is unchanged by this reallocation because the same Rs199,028.06 of supported usage remains released.
 
 ### Balances that do not support recurring expense bills
 
