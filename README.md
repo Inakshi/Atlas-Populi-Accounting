@@ -1,40 +1,14 @@
-# Atlas Populi Accounting
+# Repository structure
 
-This repository records the accounting processes used by **Atlas Populi (Private) Limited**. It is a working control reference for payment vouchers, Xero bills and payments, bank reconciliation, prepayments, project codes, and the checks that connect those records.
+Directory names use lowercase with hyphens between words. Standard entry filenames remain `README.md`, `AGENTS.md`, and `CLAUDE.md`.
 
-The documentation separates three kinds of information:
-
-- **Established practice** — supported by training material and live records.
-- **Verified example** — a sampled transaction that confirms how the practice operates.
-- **Open item** — a gap or exception that still needs evidence or a decision.
-
-Do not turn an example into a general rule without checking the supplier's own history. For recurring suppliers, use the established historical treatment unless there is an unexplained outlier or finance approves a change.
-
-## Documentation
-
-1. [Accounting operating model](docs/01-accounting-operating-model.md)
-2. [Payment vouchers and Xero bills](docs/02-payment-vouchers-and-xero-bills.md)
-3. [Bank and petty-cash reconciliation](docs/03-bank-and-petty-cash-reconciliation.md)
-4. [Prepayments and monthly releases](docs/04-prepayments-and-monthly-releases.md)
-5. [Projects, cost codes and effort](docs/05-projects-cost-codes-and-effort.md)
-6. [Verified examples and exceptions](docs/06-verified-examples-and-exceptions.md)
-7. [Open questions and control follow-ups](docs/07-open-questions-and-control-follow-ups.md)
-8. [Source register](docs/08-source-register.md)
-9. [Prepayments account review — 11 September 2026](docs/09-prepayments-account-review-2026-09-11.md)
-10. [Monthly close agent checklist](docs/10-monthly-close-agent-checklist.md)
-11. [Monthly supplier control register](docs/11-monthly-supplier-control-register.md)
-
-## Organisation boundary
-
-These documents apply to **Atlas Populi (Private) Limited** in Xero, with LKR as the base currency and a 31 March financial year-end. They do not describe the Atlas Labs Xero organisation.
-
-## Change discipline
-
-- Check source evidence and live history before changing an accounting record.
-- Preserve supplier-specific conventions unless an outlier remains unexplained.
-- Keep invoice number, voucher number, bank reference and cost code distinct and traceable.
-- Exclude voided and deleted records when calculating active balances or allocations.
-- Verify every write by reading the saved record back from the live system.
-- Record unresolved assumptions in [the open-items register](docs/07-open-questions-and-control-follow-ups.md).
-
-Last substantive review: **15 September 2026**.
+| Location | Purpose |
+|---|---|
+| `README.md` | Repository structure and navigation: the agreed categories, what belongs in each one, and where to find or update that information. |
+| `AGENTS.md` | Entry instructions for any AI agent: what to read first, how to find the relevant policies, SOPs, and skills, and the common rules for carrying out work. Detailed role responsibilities belong in `agent-team/`. |
+| `CLAUDE.md` | Entry file for Claude. It should contain only “Refer to AGENTS.md.” so both tools use the same maintained instructions. |
+| `context/` | Business and department background: what the organisation and department do, their objectives, the systems they use, and their key relationships and responsibilities. This gives readers the background needed to understand the policies and work. |
+| `policies/` | Policies: the rules that govern decisions and actions, why those rules are required, who has authority to approve actions, and which controls must be followed. Step-by-step workflows belong in processes; detailed task instructions belong in skills. |
+| `processes/` | Standard operating procedures (SOPs): what needs to be done, why it is done, who is responsible, and the sequence of steps and handoffs. Detailed instructions for performing individual tasks belong in skills. |
+| `skills/` | Work instructions: how to perform a specific task, including the inputs and tools needed, detailed steps, expected output, and checks that confirm it was completed correctly. Supporting templates, examples, and scripts stay with the skill that uses them. |
+| `agent-team/` | Agent roles and responsibilities: what each agent is accountable for, the work it can undertake within its authority, what it receives and delivers, and how it coordinates with other agents or hands work to a person. Includes the orchestrator and any supporting roles. |
