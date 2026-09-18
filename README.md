@@ -12,6 +12,8 @@ Its initial scope covers supplier invoices and payments, bank reconciliation, pr
 
 The onboarding instructions below describe the agreed setup. The intended structure is still being established in this repository; `AGENTS.md` is not yet present. References to these paths describe their intended roles and do not confirm that every file or folder is available.
 
+Before creating or updating a policy, SOP, or skill, read the [Documentation Framework](documentation-framework.md). It defines the required structures, drafting rules, information boundaries, review checks, and approval route.
+
 **For people:** Use the repository structure below to find the information relevant to your work. Start with `context/` when unfamiliar with the business or department, then consult the relevant policies, SOPs, and work instructions.
 
 **For AI agents:** Start with `AGENTS.md` and follow its onboarding instructions. Before beginning work, read the business and department context in `context/` to understand the organisation, its objectives, systems, and responsibilities. Then read the policies, SOPs, work instructions, and agent role relevant to your task. `CLAUDE.md` directs Claude to the same entry point.
@@ -25,6 +27,7 @@ Directory names use lowercase with hyphens between words. Standard entry filenam
 | Location | Purpose |
 |---|---|
 | `README.md` | Repository purpose, scope, onboarding, and navigation: what the repository covers, where to start, and where to find or update each type of information. |
+| `documentation-framework.md` | Company-wide framework for writing and maintaining policies, SOPs, and skills. |
 | `AGENTS.md` | Entry and onboarding instructions for any AI agent: read the core business and department context before beginning work, then find the relevant policies, SOPs, and skills and follow the common rules for carrying out work. Detailed role responsibilities belong in `agent-team/`. |
 | `CLAUDE.md` | Entry file for Claude. It should contain only “Refer to AGENTS.md.” so both tools use the same maintained instructions. |
 | `context/` | Business and department background: what the organisation and department do, their objectives, the systems they use, and their key relationships and responsibilities. This gives readers the background needed to understand the policies and work. |
