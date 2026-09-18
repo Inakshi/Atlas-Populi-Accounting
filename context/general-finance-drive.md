@@ -17,26 +17,21 @@ GitHub is the authoritative location for current Finance context, policies, SOPs
 
 The Drive remains the operational location for Finance records, working documents and supporting evidence. Current transactions, financial records and case-specific evidence remain in the Drive or the other designated operational system; they must not be copied into this repository.
 
-Loose files at the root of the Drive are outside the documented navigation structure and should be ignored unless the owner gives a specific instruction about one of them.
+Loose files at the root of the Drive are outside the documented navigation structure. Ignore them unless the task specifically identifies one.
 
 ## Agent boundaries
 
-An agent must obtain task-specific permission before it searches, reads, creates or updates content in the Drive. The permitted action and target must be clear.
+An agent must have explicit permission for the intended Drive action and target. A direct task instruction authorises only the actions and locations stated or necessarily included in that instruction; it does not authorise additional files, folders or actions.
 
-After receiving permission, an agent may:
+Within the authorised scope, an agent may search for and read relevant files, update an existing file, or create a new file in the correct existing folder.
 
-- search for and read relevant files;
-- update an existing file within the authorised scope; and
-- create a new file in the correct existing folder.
+The agent must not delete content; use the Drive root or a miscellaneous folder as a default location; move, rename or reorganise content without specific permission; or create a folder without specific permission.
 
-An agent must not:
+Before acting, the agent must identify one legal entity and one intended file or destination folder. If more than one file or folder could apply, if a proposed filename already exists, or if the naming or period basis is unclear, the agent must stop and ask. It must not choose based only on recency, filename or convenience.
 
-- delete a file or folder;
-- use the Drive root or a miscellaneous folder as a default location;
-- move, rename or otherwise reorganise content unless that action is specifically authorised; or
-- create a folder without specific permission.
+If the correct folder does not exist, including at the start of a new financial year, the agent must ask for permission to create it. It must not place the file elsewhere while waiting.
 
-If the correct folder does not exist, including at the start of a new financial year, the agent must ask for permission to create it. It must not create the folder or place the file elsewhere until permission is given. After an authorised creation or update, the agent must read back the result and report the exact file and folder used.
+After an authorised creation or update, the agent must reopen the saved file or re-read the affected section, verify that the intended change is present, and report the exact file and folder used.
 
 ## Financial-year folders
 
@@ -46,7 +41,6 @@ For payment-related records, the payment transaction date determines the Atlas P
 
 When a financial-year folder exists, the agent must use it. If it does not exist, the agent must follow the permission rule above before creating the new folder. Financial-year labels and dates must not be carried from Atlas Populi to Atlas Labs or Horcery without confirmation.
 
-Within Internal Reporting, an agent should use financial-year folders wherever they exist. Where the current structure instead uses a calendar year, business unit, project or reporting period, the agent must follow that existing structure.
 
 ## Current folder structure
 
@@ -60,12 +54,12 @@ This is the principal storage area for Atlas Populi Finance records.
 
 | Folder | Current use and navigation |
 |---|---|
-| `1. Payment Vouchers` | Payment Voucher records and related documents. The main structure is by financial year. Use the payment transaction date to select the applicable Atlas Populi financial year. The area also contains payment analysis and batch-payment support. Detailed Payment Voucher handling belongs in its own SOP or skill. |
-| `2. Petty Cash` | Petty-cash records and supporting documents, organised by financial year. Detailed petty-cash handling belongs in its own SOP or skill. |
+| `1. Payment Vouchers` | Payment Voucher records and related documents. The main structure is by financial year. Use the payment transaction date to select the applicable Atlas Populi financial year. The area also contains payment analysis and batch-payment support. |
+| `2. Petty Cash` | Petty-cash records and supporting documents, organised by financial year. |
 | `3. Purchasing` | Purchasing-related documents. The current structure includes software-subscription material. |
 | `4. IRD Documentation (VAT/SVAT/CIT/SET)` | Sri Lankan tax records and supporting documents, divided by tax type. The visible structure includes VAT refunds, IRD certificates, templates, PAYE/APIT, WHT, Corporate Income Tax/SET, VAT, SVAT and ESC returns. Use the relevant tax-type and period folder where present. |
 | `5. Inventory` | Currently unused. Do not place files here unless specifically instructed. |
-| `6. Manual Journals` | Supporting documents for manual journals. Use the applicable existing subfolder where one is provided. Detailed journal preparation and posting instructions belong elsewhere. |
+| `6. Manual Journals` | Supporting documents for manual journals. Use the applicable existing subfolder where one is provided. |
 | `7. Audit Requirements` | Audit-related documents, organised by financial year. An agent working on audit material must use the correct financial-year folder. |
 | `8. Document Storage` | An existing general document-storage area. Use it only when the task or an authoritative source identifies it as the correct location; otherwise ask. |
 
@@ -86,7 +80,7 @@ This contains Atlas Labs Finance material. Confirm that the task relates to Atla
 
 This contains internal reports, budgets, forecasts, financial models, costing analyses, business-unit reporting, project reporting, and weekly or monthly reporting.
 
-Navigate first by reporting category, then use the financial year, calendar year, business unit, named project, month or other reporting period already present. Use financial-year folders wherever they exist. Do not create a competing structure.
+Follow the existing hierarchy: reporting category first, then the period or grouping already used in that category. If a financial-year folder exists, use it; otherwise use the existing calendar-year, business-unit, project, month or reporting-period structure. Do not create a parallel structure without permission.
 
 The current categories include:
 
@@ -127,9 +121,10 @@ Before creating or updating a Drive file, the agent must confirm:
 2. The correct legal entity is identified.
 3. The correct top-level category is selected.
 4. The applicable financial year or other period is identified where the structure uses one.
-5. The correct existing folder is available, or permission has been obtained to create the missing folder.
-6. The file will not be placed at the Drive root, in Inventory, in Archives, or in a miscellaneous folder merely because the correct location is unclear.
-7. The completed write is read back and its exact location is reported.
+5. The intended filename is known, and no existing file creates a duplicate or overwrite risk.
+6. The correct existing folder is available, or permission has been obtained to create the missing folder.
+7. The file will not be placed at the Drive root, in Inventory, in Archives, or in a miscellaneous folder merely because the correct location is unclear.
+8. After a write, the saved file or affected section is reopened, the intended change is verified, and the exact location is reported.
 
 If any of these points is unresolved, the agent must stop and ask.
 
