@@ -17,7 +17,7 @@ Jira is the authoritative task record for the scope, progress, decisions, except
 
 Jira is not the accounting ledger or proof of a bank action. Xero remains the accounting system of record, bank portals and statements evidence cash movements, and Google Drive may contain working files or supporting documents. A Drive file is not required for every Jira task, and Drive does not replace the Jira task record.
 
-Attachments and approvals needed to understand or review the task must be retained in Jira. Where evidence is maintained in another approved restricted system, the Jira task must identify or link to it clearly enough for the authorised reviewer to retrieve it. Confidential operational details and evidence must remain in Jira or another approved restricted system and must not be copied into GitHub.
+All task-specific attachments and approval records required by the applicable process must be retained in Jira. Where supporting evidence is maintained in another approved restricted system, the Jira task must identify or link to it clearly enough for the authorised reviewer to retrieve it. Confidential operational details and evidence must remain in Jira or another approved restricted system and must not be copied into GitHub.
 
 ## Agent authority and boundaries
 
@@ -29,7 +29,7 @@ Before starting the activity, the agent must:
 2. Identify the correct period-specific Epic.
 3. Check the current Jira state, the most recent completed comparable work for the same entity and process, and any unfinished or carried-forward work.
 4. Ask which human will perform the required validation and receive the work item at the Validation stage.
-5. Confirm that the task itself provides authority for the intended operational work. Creating a Jira record does not authorise a bank, Xero, Drive or other external action.
+5. Confirm that the assigned instruction and the approvals required by the applicable process authorise the intended operational work. The existence, assignment or status of a Jira work item does not itself authorise a bank, Xero, Drive or other external action.
 
 The agent may create the work item, update its description and applicable fields, add comments and authorised evidence, move it through the statuses supported by verified progress, and assign it to the identified human validator when it reaches Validation.
 
@@ -41,7 +41,7 @@ After creating or updating a work item, the agent must reopen or reread it and v
 
 The legal entity must be unambiguous from the Epic and child work item together. The agent must not infer the entity solely from the absence of an entity prefix, a familiar supplier, a filename, the assignee or the previous month's task.
 
-When an Epic is entity-specific, its child items must remain under that Epic. When an Epic contains work for more than one entity, each child item's summary or description must identify its legal entity clearly.
+Each Epic must relate to one legal entity. Its child items must relate to that same entity and remain under the matching Epic. If an existing Epic appears to contain work for more than one legal entity, the agent must stop and ask rather than adding another child item.
 
 If the available Epic and work-item information do not establish one legal entity, the agent must stop and ask before proceeding.
 
@@ -49,7 +49,7 @@ If the available Epic and work-item information do not establish one legal entit
 
 ### Epics
 
-An Epic groups one Finance process or work group for a specific period. Recurring monthly Epics must include the month and year in their title.
+An Epic groups one Finance process or work group for one legal entity and a specific period. Every General Finance Epic must include the month and year in its title.
 
 Use the naming pattern:
 
@@ -149,10 +149,10 @@ Before finishing an agent-managed Jira update, confirm:
 2. One legal entity is confirmed and is unambiguous from the Epic and work item together.
 3. The correct process-and-period Epic is selected.
 4. The work type matches the activity.
-5. The month and year are present in the recurring monthly Epic title.
+5. The month and year are present in the Epic title.
 6. The item is in the current weekly sprint, or unfinished work has been carried to the next sprint.
 7. The status reflects the verified stage of work.
-8. Task-specific fields, attachments, approvals and evidence are present or clearly linked.
+8. Required task-specific fields, attachments and approval records are present in Jira, and externally maintained supporting evidence is clearly linked.
 9. The comments state what was done, the result, exceptions and next action.
 10. The correct human validator was identified at the start and receives the item in Validation.
 11. The item is not marked Done before the required human validation is complete.
