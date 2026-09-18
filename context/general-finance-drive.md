@@ -76,11 +76,11 @@ This contains Atlas Labs Finance material. Confirm that the task relates to Atla
 | Folder | Current use and navigation |
 |---|---|
 | `1. Audit Requirements` | Atlas Labs audit material, using the financial-year folders that exist. |
-| `2. Payments` | Atlas Labs payment records. Annual Payment Voucher files are stored directly in this folder rather than in separate annual subfolders. Select the file matching the required period and ignore test files unless testing is explicitly requested. |
+| `2. Payments` | Atlas Labs payment records. Annual Payment Voucher files are stored directly in this folder rather than in separate annual subfolders. Select the file matching the required period. If more than one file appears applicable, ask which file is authoritative. |
 | `3. Receivables` | Atlas Labs receivables material, including archived and consulting-related subfolders. Use the specific existing subfolder that matches the task. |
 | `4. Payroll` | Atlas Labs payroll-related records. Access or update these only when the task specifically requires them. |
 | `5. Miscellaneous` | Other Atlas Labs material. This is not a default catch-all; use it only when the task or an authoritative source clearly identifies it as the correct location. |
-| `6. Corporate: Horcery` | Horcery Finance material kept within the Atlas Labs area because the same Finance team supports the entities. Horcery remains a separate entity. Use its existing reporting, affiliate and other subject folders, and ignore superseded material unless historical review is specifically requested. |
+| `6. Corporate: Horcery` | Horcery Finance material kept within the Atlas Labs area because the same Finance team supports the entities. Horcery remains a separate entity. Use its existing reporting, affiliate and other subject folders. A separate folder holds superseded reconciliation builds; do not treat those as current without confirmation. |
 
 ### 2. Internal Reporting
 
