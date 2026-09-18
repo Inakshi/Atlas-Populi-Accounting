@@ -15,7 +15,7 @@ Read [Business background](business-background.md) and [Finance department](fina
 | Bank portals and statements | Execution and evidence of bank transactions, including payments, receipts and transfers. | A bank movement establishes cash activity; its accounting classification needs supporting records. |
 | Payment Voucher sheet / Payment Control Register | Monthly control record linking payment activity, supporting documents, references, posting and follow-up. | It is not a substitute for the general ledger, nor does each row necessarily represent a separate payment. |
 | Batch Payment Tracker | Supporting records for grouped payments and preparation of bank-upload information. | Several payees or bills may be associated with a single payment batch. |
-| Google Drive | Shared source documents and evidence used by Finance. | Access to a source link must be checked; a link alone does not show the document was read. |
+| Google Drive | Shared source documents and evidence used by Finance. See [General Finance Drive](general-finance-drive.md) for the current folder map and navigation boundaries. | Access to a source link must be checked; a link alone does not show the document was read. |
 | Physical invoice files | Retention of VAT and other supplier invoices received in hard copy, as described in the AP SOP. | Physical and digital records may both be relevant to the same transaction. |
 | Finance chat / Google Chat | Notification that payments or batches have been processed and communication of payment evidence. | It is a communication channel; the relevant formal records still need to be maintained. |
 | Project register | Project identifiers, tracker links, managers and project status. | A project may exist before a cost code is required. |
