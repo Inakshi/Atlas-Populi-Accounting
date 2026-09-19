@@ -10,7 +10,7 @@ Its initial scope covers supplier invoices and payments, bank reconciliation, pr
 
 ## Where to start
 
-The onboarding instructions below describe the agreed setup. The intended structure is still being established in this repository; `AGENTS.md` is not yet present. References to these paths describe their intended roles and do not confirm that every file or folder is available.
+The onboarding instructions below describe the agreed setup. Start with `AGENTS.md`; `CLAUDE.md` directs Claude to the same maintained instructions.
 
 Before creating or updating a policy, SOP, or skill, read the [Documentation Framework](documentation-framework.md). It defines the required structures, drafting rules, information boundaries, review checks, and approval route.
 
