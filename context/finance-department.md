@@ -93,7 +93,7 @@ These are draft outcome statements, not approved numerical targets or service-le
 ## Sources and evidence limits
 
 - User agreement on the seven-area department map, 16 September 2026.
-- [Accounting operating model](../docs/01-accounting-operating-model.md): evidence chain and accounting-record distinctions.
+- [Payment Voucher Process End-to-End SOP](../processes/accounts-payable/payment-voucher-process-end-to-end.md): payment evidence chain and accounting-record distinctions.
 - [Projects, cost codes and effort](../docs/05-projects-cost-codes-and-effort.md): Finance/project-manager relationship and billing support.
 - [Monthly close checklist](../docs/10-monthly-close-agent-checklist.md): cross-process review and close responsibilities.
 - Local `Atlas/AP Finance/Finance Portal/AP_Current_Workflow.md`, updated 2 June 2026: AP scope, systems and roles.

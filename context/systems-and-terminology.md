@@ -31,7 +31,7 @@ The systems map draws on the local AP SOP and process guide, FP&A and payroll re
 
 The [monthly-close checklist](../docs/10-monthly-close-agent-checklist.md) identifies the Xero entity as **Atlas Populi (Private) Limited**, with **LKR** as the base currency and a **31 March** financial year-end.
 
-The [accounting operating model](../docs/01-accounting-operating-model.md) records the following account labels at the time of its review:
+The reviewed accounting material records the following account labels at the time of its review:
 
 - Petty Cash Atlas Populi.
 - LKR and USD accounts at Commercial Bank.
@@ -39,7 +39,7 @@ The [accounting operating model](../docs/01-accounting-operating-model.md) recor
 
 These are documented account descriptions, not a fresh confirmation of active accounts, balances or access. No bank account numbers or credentials are included.
 
-The same operating-model document records Architecture Visualisation, General, Product Engineering and Software Development as Xero Department options. It records the older Cost Codes tracking category as archived, with detailed project/task coding maintained externally and carried in descriptions. These observations need live confirmation when a task relies on current configuration.
+The same reviewed material records Architecture Visualisation, General, Product Engineering and Software Development as Xero Department options. It records the older Cost Codes tracking category as archived, with detailed project/task coding maintained externally and carried in descriptions. These observations need live confirmation when a task relies on current configuration.
 
 ## Terminology
 
@@ -89,8 +89,7 @@ The reviewed local folders contain Finance Portal and automation plans. This dra
 
 Repository sources:
 
-- [Accounting operating model](../docs/01-accounting-operating-model.md).
-- [Payment vouchers and Xero bills](../docs/02-payment-vouchers-and-xero-bills.md).
+- [Payment Voucher Process End-to-End SOP](../processes/accounts-payable/payment-voucher-process-end-to-end.md).
 - [Projects, cost codes and effort](../docs/05-projects-cost-codes-and-effort.md).
 - [Source register](../docs/08-source-register.md), for the existing training and tracker references. Linked external sources were not all reopened for this draft.
 - [Monthly-close checklist](../docs/10-monthly-close-agent-checklist.md).
